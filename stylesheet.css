@@ -50,7 +50,7 @@ body {
 	height: 42px;
 	background: url(https://i.imgur.com/Aau1981.png) no-repeat;
 	background-position-y: 5px !important;
-	background-position-x: 5px !important;
+	background-position-x: 3px !important;
 	background-size: 115px;
 }
 .home_button:active {
@@ -111,26 +111,26 @@ input[type~="search"] {
 .header_navigation .link a[href="/search"] {
     display: none;
 }
-.header_navigation .link a[href="/logout"] {
-    background: url(https://i.imgur.com/n8JylY3.png) no-repeat;
+.header_navigation .link a[href="/invite"] {
+    background: url(https://i.imgur.com/PpDt5nd.png) no-repeat;
     position: absolute;
     color: #fff0;
-    margin-top: 15px;
-    margin-left: -15px;
+    margin-top: 12px;
+    margin-left: 0px;
 }
 .header_navigation .link a[href="/support"] {
 	background: url(https://i.imgur.com/04Gakgc.png) no-repeat;
 	position: absolute;
 	color: #fff0;
 	margin-top: 12px;
-	margin-left: -27px;
+	margin-left: -45px;
 }
 .header_navigation .link a[href="/search?type=groups"] {
 	background: url(https://i.imgur.com/hoVx0M3.png) no-repeat;
 	position: absolute;
 	color: #fff0;
 	margin-top: 12px;
-	margin-left: -12px;
+	margin-left: -30px;
 }
 img.psa-poster {
 	margin-top: 5px !important;
