@@ -658,7 +658,7 @@ div.content > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth
 	margin: 0px 0 0 4px;
 	font-family: noto sans,sans-serif;
 	color: #818c99;
-	line-height: 18px;
+	line-height: 19px;
 }
 .likeCnt:empty {
    margin:0
