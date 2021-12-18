@@ -653,12 +653,12 @@ div.content > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth
     background: url('https://i.postimg.cc/T1QfcvNW/like-hover.png') no-repeat;
 }
 .likeCnt {
-	font-size: 13px;
+	font-size: 14px;
 	float: left;
-	margin: -1px 0 0 4px;
+	margin: 0px 0 0 4px;
 	font-family: noto sans,sans-serif;
 	color: #818c99;
-	line-height: 20px;
+	line-height: 18px;
 }
 .likeCnt:empty {
    margin:0
@@ -874,7 +874,7 @@ textarea {
     color: #334257;
     text-decoration: none;
     border-top: none;
-	  transition:ease 0.1s
+	transition:ease 0.1s
 }
 .page_footer .link:hover {
     background: #dfe2e7;
@@ -917,7 +917,7 @@ textarea {
 	background-color: #ebedf0;
 	border-radius: 6px;
 	margin: 10px;
-    padding:10px 16px;
+	padding:10px 16px;
 	border: none;
 }
 
