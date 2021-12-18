@@ -48,8 +48,8 @@ body {
 	width: 145px;
 	text-indent: -999px;
 	height: 42px;
-	background: url(https://i.imgur.com/Aau1981.png) no-repeat;
-	background-position-y: 5px !important;
+	background: url(https://i.imgur.com/uRyGyQw.png) no-repeat;
+	background-position-y: 0px !important;
 	background-position-x: 3px !important;
 	background-size: 115px;
 }
@@ -108,7 +108,7 @@ input[type~="search"] {
 .header_navigation .link a[href="/donate"] {
     display: none;
 }
-.header_navigation .link a[href="/search"] {
+.header_navigation .link a[href="/search?type=groups"] {
     display: none;
 }
 .header_navigation .link a[href="/invite"] {
@@ -117,6 +117,8 @@ input[type~="search"] {
     color: #fff0;
     margin-top: 12px;
     margin-left: 0px;
+	  width:19px;
+	  height:17px;
 }
 .header_navigation .link a[href="/support"] {
 	background: url(https://i.imgur.com/04Gakgc.png) no-repeat;
@@ -124,13 +126,17 @@ input[type~="search"] {
 	color: #fff0;
 	margin-top: 12px;
 	margin-left: -45px;
+	width:17px;
+	height:16px
 }
-.header_navigation .link a[href="/search?type=groups"] {
+.header_navigation .link a[href="/search"] {
 	background: url(https://i.imgur.com/hoVx0M3.png) no-repeat;
 	position: absolute;
 	color: #fff0;
 	margin-top: 12px;
-	margin-left: -30px;
+	margin-left: -43px;
+	width:17px;
+	height:17px
 }
 img.psa-poster {
 	margin-top: 5px !important;
