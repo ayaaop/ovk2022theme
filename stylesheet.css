@@ -915,11 +915,11 @@ textarea {
 	margin-bottom: 10px;
 	border: none;
 	background-color: #e6f2f3;
+	border-radius: 6px;
 }
 .msg.msg_succ {
 	border: none;
 	background-color: #ddf3d7;
-	border-radius: 6px;
 	margin: 10px;
 }
 .accent-box {
