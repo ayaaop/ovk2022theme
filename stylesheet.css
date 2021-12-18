@@ -59,9 +59,9 @@ body {
 	text-indent: -999px;
 	height: 42px;
 	background: url(https://i.imgur.com/uRyGyQw.png) no-repeat;
-	background-position-y: 10px /* qualified */ !important;
-	background-position-x: 5px /* qualified */ !important;
-	background-size: 130px;
+	background-position-y: 1px /* qualified */ !important;
+	background-position-x: 3px /* qualified */ !important;
+	background-size: 120px;
 }
 input[type~="search"][name~="query"] {
 	width: 230px !important;
