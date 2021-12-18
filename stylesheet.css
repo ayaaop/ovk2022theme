@@ -53,16 +53,6 @@ body {
 	background-position-x: 3px !important;
 	background-size: 115px;
 }
-.home_button:active {
-	position: absolute;
-	width: 145px;
-	text-indent: -999px;
-	height: 42px;
-	background: url(https://i.imgur.com/uRyGyQw.png) no-repeat;
-	background-position-y: 1px /* qualified */ !important;
-	background-position-x: 3px /* qualified */ !important;
-	background-size: 120px;
-}
 input[type~="search"][name~="query"] {
 	width: 230px !important;
 	background: url(http://svgur.com/i/Rr5.svg) no-repeat 3px 4px !important;
