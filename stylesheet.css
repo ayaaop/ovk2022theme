@@ -48,10 +48,10 @@ body {
 	width: 145px;
 	text-indent: -999px;
 	height: 42px;
-	background: url(http://svgur.com/i/Rps.svg) no-repeat;
-	background-position-y: 9px !important;
+	background: url(https://i.imgur.com/Aau1981.png) no-repeat;
+	background-position-y: 5px !important;
 	background-position-x: 5px !important;
-	background-size: 130px;
+	background-size: 115px;
 }
 .home_button:active {
     position: absolute;
