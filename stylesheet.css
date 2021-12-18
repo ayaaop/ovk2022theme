@@ -736,6 +736,25 @@ div.content > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth
     border-radius: 0 0 4px 4px;
 }
 
+.header_search_input {
+	border: 1px solid #edeef0;
+	padding-left: 34px;
+	font-size: 12px;
+	height: 26px;
+	background: #fff url('https://i.imgur.com/hoVx0M3.png') no-repeat;
+	background-position-x: 10px;
+	background-position-y: 7px;
+	background-size: 15px;
+}
+.button_search {
+	border: none;
+	background: #5181b8;
+	padding: 7px 16px;
+	text-shadow: none;
+	text-decoration: none;
+	width: fit-content;
+	border-radius: 4px;
+}
 .button {
 	border-radius: 4px;
 	font-size: 13px;
