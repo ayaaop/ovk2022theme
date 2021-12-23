@@ -929,6 +929,12 @@ textarea {
 	padding:10px 16px;
 	border: none;
 }
+.messagebox-content-header {
+	background: #ebedf0;
+	margin: -10px -5px -20px;
+	padding: 10px 16px;
+	border-radius: 6px;
+}
 
 #tracy-debug-bar {
 	display:none; /*Tracy is no more*/
