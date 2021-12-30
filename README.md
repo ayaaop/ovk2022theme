@@ -1,4 +1,4 @@
-# <img align="right" src="https://i.imgur.com/uRyGyQw.png" alt="ovk 2021" title="ovk 2021" width="15%">ovk2021theme
+# <img align="right" src="https://i.imgur.com/uRyGyQw.png" alt="ovk 2022" title="ovk 2022" width="15%">ovk2022theme
 Тема для OpenVK, которая косплеит нынешний внешний вид ВКонтакте 
 
 Логотип от Эрвильзей из ржаки ОВК
