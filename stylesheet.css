@@ -257,6 +257,8 @@ img.psa-poster {
 	padding-right: 15px;
 	margin-right: 15px;
 	margin-left: -5px;
+	position: sticky;
+	top: 50px;
 }
 .left_big_block {
 	width: 546px;
@@ -284,6 +286,8 @@ table {
 	float: right;
 	width: 200px;
 	padding-right: 0;
+	position: sticky;
+	top: 50px;
 }
 .right_big_block {
 	width: 545px;
@@ -865,11 +869,23 @@ input[name="query"] {
 	background: #4e7db2;
 	color: #fff;
 }
+#faqhead {
+	background: none;
+	border: none;
+	font-size: 15px;
+	padding: 0;
+	padding-bottom: 8px;
+	color: #667b9a;
+}
 #faqcontent {
-	background: #fff;
-	margin: 0px 5px 10px 5px;
+	background: #ebedf07a;
+	font-size: 14px;
+	margin-left: -5px !important;
+	margin-right: 0 !important;
 	padding: 5px 5px 5px 10px;
-	border: 1px solid #E7EAED;
+	border: none;
+	line-height: 1.4;
+	border-radius: 6px;
 }
 textarea {
 	font-family: unset;
