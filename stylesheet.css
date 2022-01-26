@@ -87,6 +87,7 @@ input[type~="search"] {
 	color: #abb3bb;
 	text-decoration: none;
 	font-weight: bold;
+	line-height:0
 }
 .header_navigation .link a:hover {
 	text-decoration: none;
