@@ -1,7 +1,6 @@
-# <img align="right" src="https://i.imgur.com/uRyGyQw.png" alt="ovk 2022" title="ovk 2022" width="15%">ovk2022theme
-Тема для OpenVK, которая косплеит нынешний внешний вид ВКонтакте 
+Тема на основе другой темы от Ash Defenders, вк2020: https://openvk.su/ash
 
-Логотип от Эрвильзей из ржаки ОВК
+Логотип от Эрвильзея из Ржаки ОпенВК: https://openvk.su/id5904
 
 Также доступно в Stylus: https://userstyles.world/style/2413/vk-2021-themepack-openvk-su
 
