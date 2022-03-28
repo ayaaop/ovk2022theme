@@ -1,6 +1,7 @@
 body {
 	background: #edeef0 url(https://i.imgur.com/znyQY4C.png) repeat-x fixed;
 	font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+    font-size:13px
 }
 .toTop {
 	margin-top: 41px;
@@ -42,6 +43,7 @@ body {
 .header_navigation {
 	padding-right: 0;
 	margin-right: -16px;
+	user-select: none;
 }
 .home_button {
 	position: absolute;
@@ -380,13 +382,14 @@ table {
 }
 
 h4 {
-	border-bottom: 1px solid #E8EBEE;
-	color: #667b9a;
+	border-bottom: none;
+	color: #000;
 	font-size: 14px;
-	font-weight: bold;
-	margin: 0px;
-	padding: 8px 0px;
-	font-family: helvetica;
+	font-weight: 400;
+	margin: 0;
+	padding: 8px 0;
+	font-family: inherit;
+	line-height: 28px;
 }
 h2 {
 	color: #667b9a;
@@ -497,6 +500,7 @@ hr {
 }
 .tab:hover {
 	border-bottom:2px solid #dce1e6;
+	background:none;
 }
 #act_tab_a {
 	color: black;
@@ -576,6 +580,9 @@ div.content > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth
 	margin: 10px 0;
 	padding: 0;
 }
+table.post td:nth-of-type(1) {
+	padding-right:10px;
+}
 .comment {
 	border-top: 1px #dce1e6 solid;
 	padding: 5px 0 2px !important;
@@ -613,9 +620,13 @@ div.content > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	padding: 5px 5px 5px 0px;
+	padding: 5px 0;
 	border-top: 1px solid #ebedf0;
 	margin-top: 10px;
+}
+.post-menu a:nth-of-type(2):not(.post-like-button) {
+	width: 78.2667px;
+	flex: 1;
 }
 .like_wrap {
 	display: flex;
@@ -702,7 +713,7 @@ div.content > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth
 	padding: 0;
 }
 .ovk-diag-cont {
-	min-height: 170px;
+	min-height: 149px;
 }
 .ovk-diag {
 	margin: 0;
@@ -802,9 +813,12 @@ input[name="name"],input[type="text"],input[type~="text"], input[type="password"
 	border: 1px solid #edeef0;
 	padding: 3px;
 	font-size: 11px;
-	font-family: tahoma, verdana, arial, sans-serif;
+	font-family: inherit;
 	height: 26px;
-	width: 100%!important;
+	width:100px;
+}
+input[name="name"],input[type="text"],input[type~="text"], input[type="password"], input[type~="password"], input[type="email"], input[type="phone"], input[type~="email"], input[type~="phone"], input[type="search"] {
+	width:100%!important
 }
 input[name="key0"],input[type="text"]+input[type="text"] {
 	width:50px !important;
@@ -812,6 +826,20 @@ input[name="key0"],input[type="text"]+input[type="text"] {
 input[name="query"] {
 	width: 670px !important;
 	height: 31px;
+}
+input[type="checkbox"] {
+	background-image: url("https://i.postimg.cc/V6HtW9SZ/checkbox.png");
+}
+input[type="checkbox"], input[type="radio"] {
+	height: 20px;
+	width: 20px;
+	margin: 4px 5px 4px 4px;
+}
+input[type="checkbox"]:hover, input[type="radio"]:hover {
+	background-position: 0 0;
+}
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+	background-position: 0 -20px;
 }
 .crp-list {
 	width:790px;
@@ -891,8 +919,9 @@ input[name="query"] {
 textarea {
 	font-family: unset;
 	border: 1px solid #edeef0;
-	font-size: 9pt;
+	font-size: 14px;
 	min-height: 42px;
+	padding: 5px;
 }
 .page_footer .link {
 	padding: 5px 8px;
@@ -914,6 +943,10 @@ textarea {
 	width: 766px;
 	background-color: #fff;
 	border-bottom: 1px solid #e7e8ec;
+	border-top:none;
+}
+.postFeedWrapper #write {
+	padding:0 0 10px!important;
 }
 
 .user-alert {
